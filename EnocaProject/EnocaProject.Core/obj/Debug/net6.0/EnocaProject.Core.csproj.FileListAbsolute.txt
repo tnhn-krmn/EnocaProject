@@ -1,0 +1,12 @@
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Core\bin\Debug\net6.0\EnocaProject.Core.deps.json
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Core\bin\Debug\net6.0\EnocaProject.Core.dll
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Core\bin\Debug\net6.0\EnocaProject.Core.pdb
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Core\obj\Debug\net6.0\EnocaProject.Core.csproj.AssemblyReference.cache
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Core\obj\Debug\net6.0\EnocaProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Core\obj\Debug\net6.0\EnocaProject.Core.AssemblyInfoInputs.cache
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Core\obj\Debug\net6.0\EnocaProject.Core.AssemblyInfo.cs
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Core\obj\Debug\net6.0\EnocaProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Core\obj\Debug\net6.0\EnocaProject.Core.dll
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Core\obj\Debug\net6.0\refint\EnocaProject.Core.dll
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Core\obj\Debug\net6.0\EnocaProject.Core.pdb
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Core\obj\Debug\net6.0\ref\EnocaProject.Core.dll

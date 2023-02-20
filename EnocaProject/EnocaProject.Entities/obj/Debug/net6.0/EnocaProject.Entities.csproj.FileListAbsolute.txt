@@ -1,0 +1,15 @@
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Entities\bin\Debug\net6.0\EnocaProject.Entities.deps.json
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Entities\bin\Debug\net6.0\EnocaProject.Entities.dll
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Entities\bin\Debug\net6.0\EnocaProject.Entities.pdb
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Entities\bin\Debug\net6.0\EnocaProject.Core.dll
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Entities\bin\Debug\net6.0\EnocaProject.Core.pdb
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Entities\obj\Debug\net6.0\EnocaProject.Entities.csproj.AssemblyReference.cache
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Entities\obj\Debug\net6.0\EnocaProject.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Entities\obj\Debug\net6.0\EnocaProject.Entities.AssemblyInfoInputs.cache
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Entities\obj\Debug\net6.0\EnocaProject.Entities.AssemblyInfo.cs
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Entities\obj\Debug\net6.0\EnocaProject.Entities.csproj.CoreCompileInputs.cache
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Entities\obj\Debug\net6.0\EnocaProject.Entities.csproj.CopyComplete
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Entities\obj\Debug\net6.0\EnocaProject.Entities.dll
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Entities\obj\Debug\net6.0\refint\EnocaProject.Entities.dll
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Entities\obj\Debug\net6.0\EnocaProject.Entities.pdb
+C:\Users\tunah\OneDrive\Masaüstü\Enoca\EnocaProject\EnocaProject.Entities\obj\Debug\net6.0\ref\EnocaProject.Entities.dll
