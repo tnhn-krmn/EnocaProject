@@ -1,0 +1,265 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Business\\EnocaProject.Business.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Business\\EnocaProject.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Business\\EnocaProject.Business.csproj",
+        "projectName": "EnocaProject.Business",
+        "projectPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Business\\EnocaProject.Business.csproj",
+        "packagesPath": "C:\\Users\\tunah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tunah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.DataAccess\\EnocaProject.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.DataAccess\\EnocaProject.DataAccess.csproj"
+              },
+              "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Entities\\EnocaProject.Entities.csproj": {
+                "projectPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Entities\\EnocaProject.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Core\\EnocaProject.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Core\\EnocaProject.Core.csproj",
+        "projectName": "EnocaProject.Core",
+        "projectPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Core\\EnocaProject.Core.csproj",
+        "packagesPath": "C:\\Users\\tunah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tunah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.DataAccess\\EnocaProject.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.DataAccess\\EnocaProject.DataAccess.csproj",
+        "projectName": "EnocaProject.DataAccess",
+        "projectPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.DataAccess\\EnocaProject.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\tunah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tunah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Entities\\EnocaProject.Entities.csproj": {
+                "projectPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Entities\\EnocaProject.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Entities\\EnocaProject.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Entities\\EnocaProject.Entities.csproj",
+        "projectName": "EnocaProject.Entities",
+        "projectPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Entities\\EnocaProject.Entities.csproj",
+        "packagesPath": "C:\\Users\\tunah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tunah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Core\\EnocaProject.Core.csproj": {
+                "projectPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Core\\EnocaProject.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
