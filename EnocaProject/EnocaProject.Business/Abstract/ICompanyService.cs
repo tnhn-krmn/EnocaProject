@@ -1,4 +1,5 @@
-﻿using EnocaProject.Entities.Concrete;
+﻿using EnocaProject.Core.Utilities.Results;
+using EnocaProject.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,9 @@ namespace EnocaProject.Business.Abstract
 {
     public interface ICompanyService
     {
-        List<Company> GetAll();
-        void Add(Company company);
-        void Update(Company company);
-        void Delete(int companyId);
+        IDataResult<List<Company>> GetList();
+        IResult Add(Company company);
+        IResult Delete(Company company);
+        IResult Update(Company company);
     }
 }

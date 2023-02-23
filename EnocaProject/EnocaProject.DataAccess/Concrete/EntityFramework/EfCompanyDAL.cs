@@ -11,5 +11,6 @@ namespace EnocaProject.DataAccess.Concrete.EntityFramework
 {
     public class EfCompanyDAL : EfRepository<Company, Context>, ICompanyDAL
     {
+       
     }
 }

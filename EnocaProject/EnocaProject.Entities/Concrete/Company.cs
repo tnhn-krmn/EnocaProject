@@ -8,9 +8,9 @@ namespace EnocaProject.Entities.Concrete
 {
     public class Company : BaseEntity
     {
-        public string CompanyName { get; set; }
+        public string? CompanyName { get; set; }
         public bool CompanyApprovalStatus { get; set; }
-        public DateTime OrderStartHour { get; set; }
-        public DateTime OrderFinishHour { get; set; }
+        public DateTime StartHour { get; set; }
+        public DateTime FinishHour { get; set; }
     }
 }

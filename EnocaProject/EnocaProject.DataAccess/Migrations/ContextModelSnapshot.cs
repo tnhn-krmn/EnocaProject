@@ -34,16 +34,15 @@ namespace EnocaProject.DataAccess.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("CompanyName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FinishHour")
+                        .HasColumnType("datetime2");
 
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("OrderFinishHour")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("OrderStartHour")
+                    b.Property<DateTime>("StartHour")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");

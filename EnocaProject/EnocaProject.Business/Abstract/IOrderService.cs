@@ -1,4 +1,5 @@
-﻿using EnocaProject.Entities.Concrete;
+﻿using EnocaProject.Core.Utilities.Results;
+using EnocaProject.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,9 @@ namespace EnocaProject.Business.Abstract
 {
     public interface IOrderService
     {
-        List<Order> GetAll();
-        void Add(Order order);
-        void Update(Order order);
-        void Delete(int orderId);
+        IDataResult<List<Order>> GetList();
+        IResult Add(Order order);
+        IResult Delete(Order order);
+        IResult Update(Order order);
     }
 }

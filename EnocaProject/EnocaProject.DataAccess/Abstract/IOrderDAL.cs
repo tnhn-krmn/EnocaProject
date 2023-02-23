@@ -10,5 +10,6 @@ namespace EnocaProject.DataAccess.Abstract
 {
     public interface IOrderDAL : IEntityRepository<Order>
     {
+        Company IdWithDataGet(int id);
     }
 }

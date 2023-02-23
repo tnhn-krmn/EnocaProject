@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace EnocaProject.Api.Controllers
+namespace EnocaProject.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

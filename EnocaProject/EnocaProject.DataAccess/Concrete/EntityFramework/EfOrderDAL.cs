@@ -11,5 +11,12 @@ namespace EnocaProject.DataAccess.Concrete.EntityFramework
 {
     public class EfOrderDAL : EfRepository<Order, Context>, IOrderDAL
     {
+        public Company IdWithDataGet(int id)
+        {
+            using(var context = new Context())
+            {
+                return context.Companies.FirstOrDefault(x => x.Id == id);
+            }
+        }
     }
 }

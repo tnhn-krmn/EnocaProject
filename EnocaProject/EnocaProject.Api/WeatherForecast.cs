@@ -1,4 +1,4 @@
-namespace EnocaProject.Api
+namespace EnocaProject.API
 {
     public class WeatherForecast
     {

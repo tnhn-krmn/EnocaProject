@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "d84wURASLUw2JdwgeoQBVPoKm3Q21mI5bOFfa3cgmA4=",
-  "Source": "EnocaProject.Api",
-  "BasePath": "_content/EnocaProject.Api",
+  "Hash": "jJbSYcXvqVf5cCtXsgs2ZWypDFxXQy7k7ayWI8jEtIA=",
+  "Source": "EnocaProject.API",
+  "BasePath": "_content/EnocaProject.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

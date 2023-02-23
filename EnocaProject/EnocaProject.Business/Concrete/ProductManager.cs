@@ -1,4 +1,8 @@
 ﻿using EnocaProject.Business.Abstract;
+using EnocaProject.Business.Constants;
+using EnocaProject.Core.Utilities.Results;
+using EnocaProject.DataAccess.Abstract;
+using EnocaProject.DataAccess.Concrete.EntityFramework;
 using EnocaProject.Entities.Concrete;
 using System;
 using System.Collections.Generic;
@@ -10,30 +14,36 @@ namespace EnocaProject.Business.Concrete
 {
     public class ProductManager : IProductService
     {
-        private readonly IProductService _productService;
-        public ProductManager(IProductService productService)
+        private readonly IProductDAL _productDAL;
+
+        public ProductManager(IProductDAL productDAL)
         {
-            _productService = productService;
+            _productDAL = productDAL;
         }
 
-        public void Add(Product product)
+        public IResult Add(Product product)
         {
-            _productService.Add(product);
+            _productDAL.Add(product);
+            return new SuccessResult(Messages.ProductAdded);
         }
 
-        public void Delete(int productId)
+        public IResult Delete(Product product)
         {
-            _productService.Delete(productId);
+            _productDAL.Delete(product);
+            return new SuccessResult(Messages.ProductDeleted);
         }
 
-        public List<Product> GetAll()
+        public IResult Update(Product product)
         {
-          return  _productService.GetAll();
+
+            _productDAL.Update(product);
+            return new SuccessResult(Messages.ProductUpdated);
         }
 
-        public void Update(Product product)
+        public IDataResult<List<Product>> GetList()
         {
-            _productService.Update(product);
+            var data = _productDAL.GetList();
+            return new SuccessDataResult<List<Product>>(data, Messages.ProductListed);
         }
     }
 }

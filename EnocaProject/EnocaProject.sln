@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnocaProject.DataAccess", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnocaProject.Business", "EnocaProject.Business\EnocaProject.Business.csproj", "{7D123836-794B-49E1-9D07-B03775DB0D49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnocaProject.Api", "EnocaProject.Api\EnocaProject.Api.csproj", "{09557755-DCD1-49DD-A264-9C9BC794F735}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnocaProject.API", "EnocaProject.API\EnocaProject.API.csproj", "{94D90ACC-7C00-4943-977F-90DBC5CC2328}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{7D123836-794B-49E1-9D07-B03775DB0D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D123836-794B-49E1-9D07-B03775DB0D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D123836-794B-49E1-9D07-B03775DB0D49}.Release|Any CPU.Build.0 = Release|Any CPU
-		{09557755-DCD1-49DD-A264-9C9BC794F735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09557755-DCD1-49DD-A264-9C9BC794F735}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09557755-DCD1-49DD-A264-9C9BC794F735}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09557755-DCD1-49DD-A264-9C9BC794F735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D90ACC-7C00-4943-977F-90DBC5CC2328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D90ACC-7C00-4943-977F-90DBC5CC2328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D90ACC-7C00-4943-977F-90DBC5CC2328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D90ACC-7C00-4943-977F-90DBC5CC2328}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

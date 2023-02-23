@@ -10,5 +10,6 @@ namespace EnocaProject.DataAccess.Abstract
 {
     public interface ICompanyDAL : IEntityRepository<Company>
     {
+
     }
 }

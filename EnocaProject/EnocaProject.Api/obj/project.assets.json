@@ -2199,11 +2199,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Api\\EnocaProject.Api.csproj",
-      "projectName": "EnocaProject.Api",
-      "projectPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Api\\EnocaProject.Api.csproj",
+      "projectUniqueName": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.API\\EnocaProject.API.csproj",
+      "projectName": "EnocaProject.API",
+      "projectPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.API\\EnocaProject.API.csproj",
       "packagesPath": "C:\\Users\\tunah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Api\\obj\\",
+      "outputPath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tunah\\AppData\\Roaming\\NuGet\\NuGet.Config",

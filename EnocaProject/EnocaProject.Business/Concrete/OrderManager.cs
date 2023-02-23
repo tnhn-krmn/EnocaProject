@@ -1,5 +1,8 @@
 ﻿using EnocaProject.Business.Abstract;
+using EnocaProject.Business.Constants;
+using EnocaProject.Core.Utilities.Results;
 using EnocaProject.DataAccess.Abstract;
+using EnocaProject.DataAccess.Concrete.EntityFramework;
 using EnocaProject.Entities.Concrete;
 using System;
 using System.Collections.Generic;
@@ -16,24 +19,38 @@ namespace EnocaProject.Business.Concrete
         {
             _orderDAL = orderDAL;
         }
-        public void Add(Order order)
+        public IResult Add(Order order)
         {
-            _orderDAL.Add(order);
+            var data = _orderDAL.IdWithDataGet(order.CompanyId);
+            var nowHour = DateTime.Parse(DateTime.Now.ToString("H:mm"));
+
+            if ((data.CompanyApprovalStatus == true))
+            {
+            if(nowHour > data.StartHour && nowHour < data.FinishHour)
+            {
+                _orderDAL.Add(order);
+                return new SuccessResult(Messages.OrderAdded);
+            }
+                return new ErrorResult(Messages.OutOfOrderTime);
+            }
+            return new ErrorResult(Messages.CompanyNotApproved);
         }
 
-        public void Delete(int orderId)
+        public IResult Delete(Order order)
         {
-            _orderDAL.Delete(new Order { Id = orderId });
+            _orderDAL.Delete(order);
+            return new SuccessResult(Messages.OrderDeleted);
         }
 
-        public List<Order> GetAll()
+        public IDataResult<List<Order>> GetList()
         {
-            return _orderDAL.GetList();
+            return new SuccessDataResult<List<Order>>(_orderDAL.GetList().ToList());
         }
 
-        public void Update(Order order)
+        public IResult Update(Order order)
         {
             _orderDAL.Update(order);
+            return new SuccessResult(Messages.OrderUpdated);
         }
     }
 }

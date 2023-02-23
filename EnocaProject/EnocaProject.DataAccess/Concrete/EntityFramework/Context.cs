@@ -13,7 +13,7 @@ namespace EnocaProject.DataAccess.Concrete.EntityFramework
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer(@"Server=DESKTOP-A5RCAJ3;Database=EnocaProject;Trusted_Connection=True");
+            optionsBuilder.UseSqlServer(@"Server=DESKTOP-A5RCAJ3;Database=EnocaProjectNew;Trusted_Connection=True");
         }
 
         public DbSet<Product> Products { get; set; }

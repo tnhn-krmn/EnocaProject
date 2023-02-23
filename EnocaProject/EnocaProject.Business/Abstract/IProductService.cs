@@ -1,4 +1,5 @@
-﻿using EnocaProject.Entities.Concrete;
+﻿using EnocaProject.Core.Utilities.Results;
+using EnocaProject.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,9 @@ namespace EnocaProject.Business.Abstract
 {
     public interface IProductService
     {
-        List<Product> GetAll();
-        void Add(Product product);
-        void Update(Product product);
-        void Delete(int productId);
+        IResult Add(Product product);
+        IResult Delete(Product product);
+        IResult Update(Product product);
+        IDataResult<List<Product>> GetList();
     }
 }

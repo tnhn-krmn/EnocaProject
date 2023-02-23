@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XGkEKLySpNquuumflWVUKYAnV0WsjqvFaOr7w9PcETTs//pyZaX7tb287sUQ/JzhvL/fNoukj4Avh0Jdao1ftA==",
+  "dgSpecHash": "eCTFTHRI+DjnaieHnjMrcM6PlMP2ovnsbWdokAAXQoewDf/89FHJrl2BszWNT70zdt65vHGr6Z05zogGfBMtMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.Api\\EnocaProject.Api.csproj",
+  "projectFilePath": "C:\\Users\\tunah\\OneDrive\\Masaüstü\\Enoca\\EnocaProject\\EnocaProject.API\\EnocaProject.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tunah\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\tunah\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
