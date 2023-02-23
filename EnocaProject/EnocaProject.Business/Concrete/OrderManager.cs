@@ -26,7 +26,7 @@ namespace EnocaProject.Business.Concrete
 
             if ((data.CompanyApprovalStatus == true))
             {
-            if(nowHour > data.StartHour && nowHour < data.FinishHour)
+            if(order.OrderDate > data.StartHour && order.OrderDate < data.FinishHour)
             {
                 _orderDAL.Add(order);
                 return new SuccessResult(Messages.OrderAdded);
